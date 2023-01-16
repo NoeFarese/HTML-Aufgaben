@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="style.css" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Anmeldeformular Firmenanlass</title>
+</head>
+<header>
+    <h1>Ausflug CSS</h1>
+</header>
+<body>
+    
+<form action="https://formlog.offline.ch/log" method="post">
+    <fieldset class="fieldset_1">
+        <legend class="legend1">Informationen über Sie</legend>
+            <br />
+        <label for="firstname">Vorname:</label>
+        <input type="text" id="firstname" name="firstname">
+        
+        <br> </br>
+
+        <label for="lastname">Nachname:</label>
+        <input type="text" id="lastname" name="lastname">
+       
+        <br> </br>
+
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email">
+
+        <br> </br>
+
+        <label for="adress">Adresse (Strasse und Nummer):</label>
+        <input type="text" id="adress" name="adress">
+        
+        <br> </br>
+
+        <label for="location">PLZ und Ort:</label>
+        <input type="text" id="location" name="location">
+    
+        <br> </br>
+
+        <label for="phonenumber">Telefonnummer:</label>
+        <input type="text" id="phonenumber" name="phonenumber">
+    </fieldset>
+
+        <br></br>
+
+    <fieldset class="fieldset_2">
+        <legend class="legend2">Informationen für den Anlass</legend>
+            <br />
+        <label for="abos">Abos:</label>
+        <select name="Abos" id="abos">
+            <option value="1">Kein Abo</option>
+            <option value="2">GA</option>
+            <option value="3">Halbtax</option>
+            <option value="4">Streckenabo Luzern-Zürich</option>
+        </select>
+     
+        <br> </br>
+
+    <label for="abendessen">Menüs Abendessen:</label>
+    <select name="menüs" id="abendessen">
+        <option value="menü_1">Menü 1</option>
+        <option value="menü_2">Menü 2</option>
+    </select>
+   
+        <br> </br>
+
+    <label for="übernachtung">Übernachtung:</label>
+    <select name="übernachtung" id="übernachtung">
+        <option value="ohne_übernachtung">ohne Übernachtung</option>
+        <option value="mit_übernachtung">mit Übernachtung</option>
+    </select>
+    
+        <br> </br>
+    
+        <label class="Checkbox_Zimmer" for="zimmer">Zimmer:</label><br />
+        <input type="checkbox" id="c1" name="einzelzimmer" value="einzelzimmer">
+        <label for="c1">Einzelzimmer</label><br />
+        
+        <input type="checkbox" id="c2" name="doppelzimmer" value="doppelzimmer">
+        <label for="c2">Doppelzimmer</label><br />
+        
+            <br />
+        <textarea id="textarea" cols="40" rows="5" placeholder="Bemerkungen" name="Bemerkung"></textarea><br />
+
+            <br />
+
+        <input id="absenden_button" type="submit" value="Absenden">
+
+            <br />
+
+        <img src="https://cssversicherung.scene7.com/is/image/csskrankenversicherung/css-logo-schutzzone-large:image-2-1?wid=1600&fit=constrain,0&resMode=sharp2&noCache=1642004793738"
+        alt="CSS Logo">
+    </fieldset>
+</form>
+</body>
+</html>

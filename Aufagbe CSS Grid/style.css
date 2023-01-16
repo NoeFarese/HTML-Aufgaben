@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    background: lightblue;
+    margin: 0 auto;
+    width: 1100px;
+
+    grid-template-columns: 200px auto 150px;
+    grid-template-rows: 200px 100px auto 150px;
+    border: #333333 solid 2px;
+}
+header {
+  grid-column: 1/4;
+  border: #333333 solid 2px;
+  font-family: Arial;
+}
+.main_nav {
+    grid-column: 1/4;
+    border: #333333 solid 2px;
+    font-family: Arial;
+}
+
+.sub_nav {
+    border: #333333 solid 2px;
+    font-family: Arial;
+}
+
+main {
+ border: #333333 solid 2px;
+ font-family: Arial;
+    
+}
+aside {
+    border: #333333 solid 2px;
+    font-family: Arial;
+}
+
+footer {
+    grid-column: 1/4;
+    padding: 60px;
+    border: #333333 solid 2px;
+    font-family: Arial;
+}

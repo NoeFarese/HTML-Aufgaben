@@ -1,0 +1,110 @@
+img {
+    width: 255px;
+    height: 140px;
+    margin-bottom: 30px;
+}
+
+.unterschrift {
+    width: 120px;
+    height: 60px;
+    margin-bottom: 50px;
+}
+
+.adresse_zwei {
+    margin-left: 65%;
+    margin-bottom: 100px;
+}
+
+a {
+    margin-left: 65%;
+}
+
+a:hover {
+    background: red;
+}
+
+a:visited {
+    color: plum;
+}
+
+a:link {
+    color: blue;
+}
+
+a:active {
+    color: greenyellow;
+}
+
+.liste {
+    padding-left: 11px;
+}
+
+body {
+    border: #888888 solid 2px;
+    width: 21cm;
+    min-height: 27.9cm;
+    margin: 5% auto;
+    padding: 2cm 2.5cm;
+    box-shadow: -6px 6px 12px black;
+    box-shadow: -6px 6px 12px lightskyblue;
+    font-family: Arial;
+}
+
+th {
+    border: #333333 solid 1px;
+    padding-left: 3px;
+
+}
+
+td:nth-child(1) {
+    background-color: lightgrey;
+}
+
+tr:last-child td {
+    background-color: white;
+}
+
+td {
+    border: black solid 1px;
+    padding-left: 3px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.top_tabelle {
+    background-color: rgb(132, 132, 132);
+
+    margin-right: 0%;
+    border: black solid 1px;
+}
+
+.total {
+    border-bottom: double;
+
+}
+
+.hidden {
+    border: none;
+}
+
+p {
+    line-height: 150%;
+}
+
+h1 {
+    line-height: 150%;
+    font-family: 'Nabla', cursive;
+}
+
+h2 {
+    line-height: 150%;
+}
+
+h3 {
+    line-height: 150%;
+}
